@@ -1,0 +1,89 @@
+/*
+// .not-found
+*/
+@import '../variables';
+@import '../functions';
+@import '../mixins/direction';
+
+
+.not-found {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    height: 549px;
+    background-repeat: no-repeat;
+    background-image: url(/images/teammates/404.png);
+    width: 753px;
+   
+}
+.container-not-found__404{
+    text-align: left;
+    max-width: 444px;
+    float: right;
+}
+.go-home-page-404{
+  font-size: 18px;
+  color: #701D46;  
+}
+.not-found__404 {
+    font-size: 170px;
+    font-weight: $font-weight-bold;
+    color:#33475B;
+    padding: 77px 0 0px;
+}
+.not-found__content {
+    width: 480px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.not-found__title {
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #33475B;
+}
+.not-found__text {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color:#B39FA5;
+}
+.not-found__search {
+    display: flex;
+    margin-bottom: 30px;
+}
+.not-found__search-input {
+    width: 1px;
+    flex-grow: 1;
+
+    @include direction {
+        #{$margin-inline-end}: 10px;
+    }
+}
+
+
+@media (max-width: breakpoint(md-end)) {
+    .container-not-found__404 {
+        text-align: center;
+        max-width: 397px;
+        float: none; 
+        
+        padding-top: 34%;
+    }
+    .not-found__404 {
+        font-size: 90px;
+       
+    }
+    .not-found {
+        height: 700px;
+        width: 402px;
+        background-size: 79%;
+        background-position: top;
+  }
+}
+@media (max-width: breakpoint(sm-end)) {
+    .not-found {
+        height: 700px;
+        width: 348px;
+    }
+    .not-found__content {
+        width: 280px;
+    }
+}

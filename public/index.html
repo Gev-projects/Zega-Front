@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" id="favicon"
+        href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1444703686981-a3abbc4d4fe3%3Fixid%3DMnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGljdHVyZXxlbnwwfHwwfHw%253D%26ixlib%3Drb-1.2.1%26w%3D1000%26q%3D80&imgrefurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fpicture&tbnid=5wpmfzF3T_j--M&vet=12ahUKEwiYqa7qpefwAhUUwCoKHXAUCpsQMygAegUIARDTAQ..i&docid=NPxUjK-ZSJCGeM&w=1000&h=667&q=picture&ved=2ahUKEwiYqa7qpefwAhUUwCoKHXAUCpsQMygAegUIARDTAQ" />
+    <!--    <link rel="shortcut icon" id="favicon" href="%PUBLIC_URL%/favicon.ico" />-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Megalight" data-react-helmet="true" />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Open Graph / Facebook -->
+    <meta name="keywords" content="$OG_KEYWORDS" />
+    <meta name="description" content="$OG_DESCRIPTION" />
+    <meta property="og:title" content="$OG_TITLE" />
+    <meta property="og:description" content="$OG_DESCRIPTION" />
+    <meta property="og:image" content="$OG_IMAGE" />
+    <meta property="og:url" content="%PUBLIC_URL%" />
+
+    <!--Bootstrap Icons-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet" />
+
+
+
+    <!-- Twitter -->
+    <!-- <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.megalight.am/">
+    <meta property="twitter:title" content="Megalight">
+    <meta property="twitter:description" content="">
+    <meta property="twitter:image" content="">
+    <base href="%PUBLIC_URL%/"> -->
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Zegashop</title>
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+   <!--  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179423892-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-179423892-1');
+    </script> -->
+
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div class="site-preloader">
+        <style>
+            @keyframes site-preloader-animation {
+                from {
+                    transform: rotateZ(0deg);
+                }
+
+                to {
+                    transform: rotateZ(360deg);
+                }
+            }
+
+            body {
+                overflow: hidden !important;
+                overflow-y: scroll !important;
+                height: 100% !important;
+            }
+
+            .site-preloader {
+                position: fixed;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #fff;
+                z-index: 99999;
+                opacity: 1;
+            }
+
+            .site-preloader::before {
+                box-sizing: border-box;
+                content: '';
+                display: block;
+                position: absolute;
+                left: calc(50% - 50px);
+                top: calc(50% - 50px);
+                width: 100px;
+                height: 100px;
+                border-radius: 50px;
+                border: 3px solid rgba(0, 0, 0, .2);
+                border-top-color: rgba(0, 0, 0, .6);
+                animation-name: site-preloader-animation;
+                animation-duration: .5s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+            }
+
+            .site-preloader__fade {
+                transition: opacity .3s;
+                opacity: 0;
+            }
+        </style>
+    </div>
+    <div id="root"></div>
+    <!--
+  This HTML file is a template.
+  If you open it directly in the browser, you will see an empty page.
+
+  You can add webfonts, meta tags, or analytics to this file.
+  The build step will place the bundled scripts into the <body> tag.
+
+  To begin the development, run `npm start` or `yarn start`.
+  To create a production bundle, use `npm run build` or `yarn build`.
+-->
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+#header.categories = (from) Product (to) Categories;
+<ShopPageCheckout>
+#checkout.name = (from placeholder) {placeholder} (to) "Name";
+#checkout.lname = (from placeholder) {placeholder} (to) "Surname";
+#checkout.country = (new) country;
+#checkout.city = (new) city;
+all formattedMessages in checkout forms;
+</ShopPageCheckout>
+
+<AccountPageLogin>
+<FormattedMessage> -es
+</AccountPageLogin>
